@@ -34,6 +34,27 @@ Arquivos criados ou atualizados:
 - docs/diagnostico-ci-cd.md
 - docs/context.md
 
+## Iteracao 003 - UI Plansvel baseada no Figma
+
+Data: 2026-06-10
+
+Resumo:
+
+- Recriado o cabeçalho seguindo a referência visual do Figma, com logo, navegação, carrinho, login e menu mobile.
+- Recriada a abertura da home em desktop e Android, com imagem full-width, título Plansvel e botão "Sobre Nós".
+- Criada seção mobile de busca em bloco laranja, seguindo a referência Android enviada.
+- Criada seção de destinos populares com cards, controles laterais e identidade laranja/branco/preto.
+- Criada a página/seção de hotéis com card de busca, filtros, mapa visual, cards de hospedagem, favoritos, carrinho e filtro por orçamento.
+- Criado rodapé laranja/preto inspirado na primeira imagem enviada.
+- Removido o dashboard da tela principal para priorizar o fluxo de turismo/hotéis.
+
+Arquivos criados ou atualizados:
+
+- frontend/src/App.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+- docs/backlog.md
+
 Arquivos criados ou atualizados:
 
 - README.md

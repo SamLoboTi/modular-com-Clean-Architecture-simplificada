@@ -32,10 +32,16 @@
 - [x] Criar home inicial da Plansvel
 - [x] Criar busca visual de hoteis
 - [x] Criar dashboard visual com Recharts
+- [x] Recriar cabeçalho seguindo referência do Figma
+- [x] Recriar home desktop/mobile seguindo referência visual
+- [x] Criar página/seção de hotéis com busca, filtros, mapa e cards
+- [x] Criar rodapé seguindo referência visual enviada
 - [ ] Integrar frontend com API real
 - [ ] Criar pagina de resultados
 - [ ] Criar pagina de detalhes do hotel
 - [ ] Criar login/cadastro
+- [ ] Separar home, hotéis, header e footer em componentes próprios
+- [ ] Adicionar rotas reais para Home, Hotéis, Pacotes e Destinos
 
 ## Produto
 
