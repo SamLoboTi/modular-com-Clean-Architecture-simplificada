@@ -474,8 +474,8 @@ button {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(7, 13, 20, 0.42), rgba(7, 13, 20, 0.02)),
-    url("https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=2400&q=90")
-      center 50% / cover;
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Varenna_and_mountain_from_ferry.jpg/2560px-Varenna_and_mountain_from_ferry.jpg")
+      center 48% / cover;
   color: #ffffff;
   display: flex;
   min-height: 590px;

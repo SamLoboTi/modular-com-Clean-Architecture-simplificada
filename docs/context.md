@@ -154,3 +154,18 @@ Arquivos criados ou atualizados:
 - frontend/src/styles/global.css
 - docs/context.md
 - docs/backlog.md
+
+## Iteracao 008 - Correcao da imagem hero de Hoteis
+
+Data: 2026-06-10
+
+Resumo:
+
+- Corrigida a imagem principal da pagina `/hotels`.
+- Substituida a imagem anterior por uma foto de Varenna/Lake Como do Wikimedia Commons, mais proxima da referencia enviada.
+- Ajustado o enquadramento do background para manter agua, montanhas e vila colorida no hero.
+
+Arquivos criados ou atualizados:
+
+- frontend/src/styles/global.css
+- docs/context.md
