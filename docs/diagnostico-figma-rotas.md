@@ -19,10 +19,28 @@ HTTP/1.1 403 Forbidden
 Server: CloudFront
 ```
 
+Iframe embed testado:
+
+```html
+<iframe src="https://embed.figma.com/design/UnDTgsIu4hGU83r4C50KnZ/Plansvel?node-id=31-1271&embed-host=share"></iframe>
+```
+
+Resultado tecnico do embed:
+
+```txt
+HTTP/1.1 404 Not Found
+entrypoint_variant: embed_interstitial
+is_public: false
+requires_cookies: true
+```
+
 Diagnostico:
 
 - Nao consegui acessar diretamente o projeto Figma por esta sessao.
-- O retorno `403 Forbidden` indica bloqueio de acesso, link privado, necessidade de login/cookies ou restricao do Figma/CloudFront.
+- O link normal retornou `403 Forbidden`.
+- O iframe embed carregou uma pagina intermediaria do Figma, mas nao liberou os frames do design.
+- O proprio HTML retornado pelo Figma indica `is_public: false` e `requires_cookies: true`.
+- Isso confirma que o arquivo nao esta publico para leitura externa nesta sessao.
 - A implementacao anterior foi feita a partir das imagens enviadas na conversa, nao a partir de inspecao completa do arquivo Figma.
 
 Acao necessaria:
@@ -213,4 +231,3 @@ O sistema compila e abre a home, mas ainda nao esta funcional como produto com p
    - buscar hoteis -> atualiza resultados
    - ver disponibilidade -> adiciona ao carrinho ou abre detalhe
    - login -> abre pagina/modal
-

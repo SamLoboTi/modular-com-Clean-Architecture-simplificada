@@ -63,6 +63,7 @@ Resumo:
 
 - Tentado acesso direto ao link do Figma informado.
 - Figma retornou `HTTP/1.1 403 Forbidden`, indicando acesso bloqueado nesta sessao.
+- Testado tambem o iframe `embed.figma.com`; o retorno indicou `is_public: false` e `requires_cookies: true`.
 - Verificado que o sistema atual compila e a home abre localmente.
 - Diagnosticado que `/hotels`, `/packages`, `/destinations`, `/profile` e `/login` retornam o mesmo `index.html`, sem paginas React reais.
 - Identificado que a navegacao atual usa ancoras, com links quebrados para `#packages`, `#about` e `#map`.
