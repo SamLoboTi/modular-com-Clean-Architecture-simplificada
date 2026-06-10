@@ -470,6 +470,418 @@ button {
   max-width: 360px;
 }
 
+.hotels-hero {
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(7, 13, 20, 0.42), rgba(7, 13, 20, 0.02)),
+    url("https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=2400&q=90")
+      center 50% / cover;
+  color: #ffffff;
+  display: flex;
+  min-height: 590px;
+  padding: 0 5vw;
+}
+
+.hotels-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(66px, 7vw, 86px);
+  line-height: 1;
+  margin: -20px 0 0;
+}
+
+.hotels-content {
+  background: #ffffff;
+  padding: 31px 0 82px;
+}
+
+.hotel-search-card {
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 11px 30px rgba(20, 24, 28, 0.11);
+  margin: 0 auto 21px;
+  max-width: 1080px;
+  padding: 27px 26px 26px;
+}
+
+.hotel-search-card h2 {
+  color: #444444;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0 0 21px;
+}
+
+.hotel-search-grid {
+  align-items: end;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(310px, 1fr) 190px 195px 160px;
+}
+
+.input-control {
+  display: grid;
+  gap: 6px;
+}
+
+.input-control span {
+  color: #555555;
+  font-size: 10px;
+}
+
+.input-control strong {
+  align-items: center;
+  border: 1px solid #d8dce2;
+  border-radius: 5px;
+  color: #777777;
+  display: flex;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  gap: 10px;
+  height: 40px;
+  padding: 0 13px;
+  white-space: nowrap;
+}
+
+.input-control svg {
+  color: #7a7a7a;
+  flex: 0 0 auto;
+}
+
+.input-control em {
+  border-left: 1px solid #e2e5ea;
+  font-style: italic;
+  height: 40px;
+  margin-left: auto;
+  padding: 12px 10px 0 14px;
+}
+
+.hotel-search-button {
+  background: #00a84f;
+  border-radius: 9px;
+  box-shadow: 0 10px 16px rgba(0, 140, 66, 0.24);
+  color: #ffffff;
+  font-size: 13px;
+  height: 45px;
+  min-height: 45px;
+  text-transform: uppercase;
+}
+
+.hotel-results-layout {
+  align-items: start;
+  display: grid;
+  gap: 122px;
+  grid-template-columns: 278px minmax(0, 685px);
+  margin: 0 auto;
+  max-width: 1174px;
+  padding-top: 0;
+}
+
+.filters-column {
+  display: grid;
+  gap: 20px;
+  padding-top: 78px;
+}
+
+.map-card {
+  align-items: center;
+  background:
+    linear-gradient(115deg, transparent 0 46%, #f7f7f7 46% 53%, transparent 53%),
+    linear-gradient(28deg, transparent 0 40%, #f7f7f7 40% 47%, transparent 47%),
+    linear-gradient(78deg, transparent 0 61%, #f7f7f7 61% 67%, transparent 67%),
+    radial-gradient(circle at 69% 35%, #d9f0df 0 22%, transparent 23%),
+    linear-gradient(90deg, #eceff2 1px, transparent 1px),
+    linear-gradient(#eceff2 1px, transparent 1px),
+    #f6f7f8;
+  background-size:
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    100% 100%,
+    32px 32px,
+    32px 32px,
+    auto;
+  border-radius: 5px;
+  display: flex;
+  height: 176px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-pin {
+  color: #0877df;
+  left: 50%;
+  position: absolute;
+  top: 36px;
+  transform: translateX(-50%);
+}
+
+.map-card .button {
+  background: #ff450d;
+  border-radius: 5px;
+  bottom: 15px;
+  color: #ffffff;
+  font-size: 13px;
+  height: 34px;
+  min-height: 34px;
+  min-width: 176px;
+  position: absolute;
+}
+
+.filter-card {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  min-height: 226px;
+  padding: 0 0 28px;
+}
+
+.filter-card h3 {
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  gap: 7px;
+  height: 37px;
+  margin: 0;
+  padding: 0 8px;
+}
+
+.filter-card label {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  margin: 24px 8px 89px;
+}
+
+.filter-card input[type="range"] {
+  accent-color: #ff450d;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.hotel-list {
+  display: grid;
+  gap: 58px;
+}
+
+.result-card {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 206px minmax(0, 1fr) 143px;
+  min-height: 230px;
+  padding: 14px;
+}
+
+.result-image-wrap {
+  border-radius: 5px;
+  min-height: 200px;
+  position: relative;
+}
+
+.result-image-wrap img {
+  border-radius: 5px;
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  width: 206px;
+}
+
+.breakfast-badge {
+  align-items: center;
+  background: #008a3c;
+  color: #ffffff;
+  display: flex;
+  font-size: 11px;
+  font-weight: 900;
+  height: 44px;
+  justify-content: center;
+  left: -18px;
+  line-height: 1.25;
+  padding: 0 16px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 113px;
+  z-index: 2;
+}
+
+.favorite-button {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 999px;
+  color: #222222;
+  cursor: pointer;
+  display: inline-flex;
+  height: 36px;
+  justify-content: center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 36px;
+}
+
+.favorite-button.is-favorite {
+  color: #ff450d;
+}
+
+.favorite-button.is-favorite svg {
+  fill: currentColor;
+}
+
+.hotel-copy {
+  border-left: 1px solid #e1e1e1;
+  padding-left: 12px;
+}
+
+.hotel-name-row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hotel-name-row h3 {
+  color: #0071d9;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.stars {
+  color: #f9a900;
+  display: inline-flex;
+  gap: 1px;
+}
+
+.hotel-location {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  font-weight: 700;
+  gap: 12px;
+  margin: 4px 0 6px;
+}
+
+.hotel-location a {
+  color: #0071d9;
+  text-decoration: underline;
+}
+
+.beach,
+.room,
+.room-detail {
+  color: #252525;
+  font-size: 11px;
+  margin: 0 0 5px;
+}
+
+.room {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.room-title {
+  font-size: 11px;
+  font-weight: 900;
+  margin: 11px 0 4px;
+}
+
+.green-line,
+.red-line {
+  font-size: 10px;
+  font-weight: 900;
+  margin: 0 0 3px;
+}
+
+.green-line {
+  color: #008a3c;
+}
+
+.red-line {
+  color: #e00000;
+}
+
+.booking-column {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  text-align: right;
+}
+
+.score {
+  align-items: flex-start;
+  display: flex;
+  gap: 7px;
+  justify-content: flex-end;
+  margin-bottom: 64px;
+}
+
+.score span {
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.score small,
+.booking-column > small {
+  color: #666666;
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.score strong {
+  align-items: center;
+  background: #0046a4;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 16px;
+  height: 32px;
+  justify-content: center;
+  min-width: 30px;
+  padding: 0 5px;
+}
+
+.price {
+  color: #161616;
+  font-size: 22px;
+  margin: 7px 0 12px;
+}
+
+.booking-column .button {
+  background: #ff450d;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 12px;
+  height: 32px;
+  min-height: 32px;
+  padding: 0 11px;
+}
+
+.cart-button {
+  background: #ff450d;
+  border: 0;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  height: 32px;
+  margin-top: 11px;
+  padding: 0 14px;
+}
+
 .site-footer {
   background: #ff450d;
   color: #ffffff;
@@ -726,6 +1138,63 @@ button {
 
   .needs-copy {
     padding-top: 0;
+  }
+
+  .hotels-hero {
+    justify-content: center;
+    min-height: 260px;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .hotels-hero h1 {
+    font-size: 48px;
+    margin-top: 0;
+  }
+
+  .hotels-content {
+    padding: 24px 18px 54px;
+  }
+
+  .hotel-search-card {
+    margin-bottom: 28px;
+    padding: 22px 18px;
+  }
+
+  .hotel-search-grid,
+  .hotel-results-layout,
+  .result-card {
+    grid-template-columns: 1fr;
+  }
+
+  .hotel-results-layout {
+    gap: 28px;
+  }
+
+  .filters-column {
+    padding-top: 0;
+  }
+
+  .hotel-list {
+    gap: 24px;
+  }
+
+  .result-image-wrap img {
+    width: 100%;
+  }
+
+  .hotel-copy {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .booking-column {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .score {
+    margin-bottom: 16px;
   }
 
   .site-footer {

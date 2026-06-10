@@ -124,3 +124,33 @@ Arquivos criados ou atualizados:
 - backend/*
 - frontend/*
 - docker-compose.yml
+
+## Iteracao 007 - Pagina Hoteis conforme referencia
+
+Data: 2026-06-10
+
+Resumo:
+
+- Criada rota real `/hotels` usando React Router.
+- Separados componentes de layout em `Header` e `Footer`.
+- Separadas paginas `HomePage` e `HotelsPage`.
+- Recriada a pagina Hoteis com hero propria, card de busca, mapa visual, filtro de orcamento e cards de hospedagem no formato das imagens enviadas.
+- Mantido o rodape laranja/preto conforme referencia.
+- Ajustado o cabecalho para manter HOME destacado em laranja como nos frames enviados.
+- Validado `npm.cmd run build` no frontend com sucesso.
+- Validado `python -m pytest -q` no backend com sucesso.
+- Validado `GET /hotels` no servidor local com retorno `200 OK`.
+- Observacao: checagem visual via Browser integrado nao foi possivel porque o navegador `iab` nao estava disponivel nesta sessao.
+
+Arquivos criados ou atualizados:
+
+- frontend/package.json
+- frontend/package-lock.json
+- frontend/src/App.tsx
+- frontend/src/components/layout/Header.tsx
+- frontend/src/components/layout/Footer.tsx
+- frontend/src/pages/HomePage.tsx
+- frontend/src/pages/HotelsPage.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+- docs/backlog.md

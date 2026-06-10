@@ -7,7 +7,7 @@
 - [x] Definir arquitetura inicial
 - [x] Criar documentacao base
 - [x] Criar CI/CD simples
-- [ ] Publicar primeira versao no GitHub
+- [x] Publicar primeira versao no GitHub
 - [x] Definir estrategia de tunnel publico para demonstracao local
 - [x] Gerar URL publica temporaria do tunnel
 - [x] Criar diagnostico CI/CD da aplicacao no ar
@@ -42,11 +42,11 @@
 - [ ] Criar pagina de resultados
 - [ ] Criar pagina de detalhes do hotel
 - [ ] Criar login/cadastro
-- [ ] Separar home, hotéis, header e footer em componentes próprios
+- [x] Separar home, hotéis, header e footer em componentes próprios
 - [ ] Adicionar rotas reais para Home, Hotéis, Pacotes e Destinos
 - [ ] Corrigir encoding dos textos da interface
-- [ ] Configurar `react-router-dom`
-- [ ] Criar pagina real `/hotels`
+- [x] Configurar `react-router-dom`
+- [x] Criar pagina real `/hotels`
 - [ ] Criar pagina real `/packages`
 - [ ] Criar pagina real `/destinations`
 - [ ] Criar pagina real `/about`
