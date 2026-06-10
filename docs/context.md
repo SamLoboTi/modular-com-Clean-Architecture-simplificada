@@ -55,6 +55,26 @@ Arquivos criados ou atualizados:
 - docs/context.md
 - docs/backlog.md
 
+## Iteracao 004 - Diagnostico Figma e rotas
+
+Data: 2026-06-10
+
+Resumo:
+
+- Tentado acesso direto ao link do Figma informado.
+- Figma retornou `HTTP/1.1 403 Forbidden`, indicando acesso bloqueado nesta sessao.
+- Verificado que o sistema atual compila e a home abre localmente.
+- Diagnosticado que `/hotels`, `/packages`, `/destinations`, `/profile` e `/login` retornam o mesmo `index.html`, sem paginas React reais.
+- Identificado que a navegacao atual usa ancoras, com links quebrados para `#packages`, `#about` e `#map`.
+- Identificado que a secao de hoteis fica oculta em telas menores que 480px.
+- Identificado problema de encoding em textos da interface.
+
+Arquivos criados ou atualizados:
+
+- docs/diagnostico-figma-rotas.md
+- docs/context.md
+- docs/backlog.md
+
 Arquivos criados ou atualizados:
 
 - README.md
