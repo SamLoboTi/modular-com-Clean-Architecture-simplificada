@@ -169,3 +169,20 @@ Arquivos criados ou atualizados:
 
 - frontend/src/styles/global.css
 - docs/context.md
+
+## Iteracao 009 - Asset local para hero de Hoteis
+
+Data: 2026-06-10
+
+Resumo:
+
+- Diagnosticado que a imagem remota anterior da hero de `/hotels` retornava erro `400` no navegador.
+- Baixada uma versao valida da imagem de Varenna/Lake Como para o projeto.
+- Alterado o CSS para usar asset local em `/assets/plansvel/hotels-hero-varenna.jpg`.
+- Definida a estrategia visual da Plansvel: reconstruir a base por cortes/assets locais e depois automatizar funcionalidades por cima.
+
+Arquivos criados ou atualizados:
+
+- frontend/public/assets/plansvel/hotels-hero-varenna.jpg
+- frontend/src/styles/global.css
+- docs/context.md

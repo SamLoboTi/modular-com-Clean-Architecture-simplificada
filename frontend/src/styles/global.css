@@ -474,7 +474,7 @@ button {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(7, 13, 20, 0.42), rgba(7, 13, 20, 0.02)),
-    url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Varenna_and_mountain_from_ferry.jpg/2560px-Varenna_and_mountain_from_ferry.jpg")
+    url("/assets/plansvel/hotels-hero-varenna.jpg")
       center 48% / cover;
   color: #ffffff;
   display: flex;
