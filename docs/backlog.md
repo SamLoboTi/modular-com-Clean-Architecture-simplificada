@@ -10,6 +10,9 @@
 - [ ] Publicar primeira versao no GitHub
 - [x] Definir estrategia de tunnel publico para demonstracao local
 - [x] Gerar URL publica temporaria do tunnel
+- [x] Criar diagnostico CI/CD da aplicacao no ar
+- [ ] Criar scripts oficiais de start local para backend/frontend
+- [ ] Criar deploy persistente em Render, Railway ou Azure
 
 ## Backend
 

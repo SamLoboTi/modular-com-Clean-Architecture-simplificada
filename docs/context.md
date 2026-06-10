@@ -16,6 +16,24 @@ Resumo:
 - Gerada URL temporaria de tunnel para validacao visual: `https://knit-titans-evening-tractor.trycloudflare.com`.
 - Ajustado Vite para aceitar hosts externos temporarios do tunnel durante desenvolvimento.
 
+## Iteracao 002 - Diagnostico CI/CD e sistema no ar
+
+Data: 2026-06-10
+
+Resumo:
+
+- Frontend Plansvel colocado no ar localmente na porta `5180`.
+- Cloudflare Tunnel temporario ativado para demonstracao publica.
+- URL publica validada com `HTTP/1.1 200 OK`: `https://donated-ali-williams-described.trycloudflare.com/`.
+- Backend validado com testes automatizados.
+- Frontend validado com build de producao.
+- Criado diagnostico no formato CI/CD.
+
+Arquivos criados ou atualizados:
+
+- docs/diagnostico-ci-cd.md
+- docs/context.md
+
 Arquivos criados ou atualizados:
 
 - README.md

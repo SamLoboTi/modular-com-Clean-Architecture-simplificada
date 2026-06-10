@@ -15,6 +15,7 @@ dist/
 *.tsbuildinfo
 cloudflared*.log
 frontend-vite*.log
+backend-django*.log
 
 .venv/
 venv/
