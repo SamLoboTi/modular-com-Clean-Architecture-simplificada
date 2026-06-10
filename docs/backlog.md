@@ -37,6 +37,7 @@
 - [x] Recriar home parte por parte conforme imagens enviadas
 - [x] Criar página/seção de hotéis com busca, filtros, mapa e cards
 - [x] Criar rodapé seguindo referência visual enviada
+- [x] Recriar rodapé no formato exato da referência enviada
 - [ ] Integrar frontend com API real
 - [ ] Criar pagina de resultados
 - [ ] Criar pagina de detalhes do hotel

@@ -96,6 +96,23 @@ Arquivos criados ou atualizados:
 - frontend/src/styles/global.css
 - docs/context.md
 
+## Iteracao 006 - Rodape conforme referencia
+
+Data: 2026-06-10
+
+Resumo:
+
+- Adicionado rodape ao final da Home.
+- Recriado o bloco laranja com logo Plansvel, texto institucional e barra preta.
+- Adicionados icones sociais na barra inferior.
+- Ajustado responsivo do rodape para telas menores.
+
+Arquivos criados ou atualizados:
+
+- frontend/src/App.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+
 Arquivos criados ou atualizados:
 
 - README.md
