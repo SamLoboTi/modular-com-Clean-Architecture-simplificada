@@ -76,6 +76,26 @@ Arquivos criados ou atualizados:
 - docs/context.md
 - docs/backlog.md
 
+## Iteracao 005 - Home fiel aos frames enviados
+
+Data: 2026-06-10
+
+Resumo:
+
+- Refeito o foco da interface para a pagina Home.
+- Recriado o cabecalho com logo, navegacao central e botao de login conforme a imagem desktop.
+- Recriada a hero full-screen com imagem de montanha, titulo Plansvel, texto e botao Sobre Nos.
+- Recriada a barra de busca abaixo da hero, com bordas laranja, botao escuro e icone de calendario.
+- Recriada a secao de destinos populares com quatro cards grandes e painel branco sobreposto.
+- Criada a secao "Coisas Que Voce Precisa Prepare-Se Antes De Viajar" com duas imagens sobrepostas e lista numerada.
+- Ajustado comportamento mobile para seguir a abertura Android enviada: header grande, hero compacta e busca em bloco laranja.
+
+Arquivos criados ou atualizados:
+
+- frontend/src/App.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+
 Arquivos criados ou atualizados:
 
 - README.md

@@ -34,6 +34,7 @@
 - [x] Criar dashboard visual com Recharts
 - [x] Recriar cabeçalho seguindo referência do Figma
 - [x] Recriar home desktop/mobile seguindo referência visual
+- [x] Recriar home parte por parte conforme imagens enviadas
 - [x] Criar página/seção de hotéis com busca, filtros, mapa e cards
 - [x] Criar rodapé seguindo referência visual enviada
 - [ ] Integrar frontend com API real
