@@ -217,3 +217,21 @@ Arquivos criados ou atualizados:
 - docs/benchmark-booking-packages.md
 - docs/context.md
 - docs/backlog.md
+
+## Iteracao 011 - Hero visual da pagina Pacotes
+
+Data: 2026-06-10
+
+Resumo:
+
+- Inserida imagem abaixo do cabecalho na pagina `/packages`.
+- A imagem remete a terminal/embarque internacional e foi salva como asset local.
+- Criado bloco hero com chamada para pacotes internacionais antes do card de busca.
+- Ajustado responsivo da hero para mobile.
+
+Arquivos criados ou atualizados:
+
+- frontend/public/assets/plansvel/packages-boarding-hero.jpg
+- frontend/src/pages/PackagesPage.tsx
+- frontend/src/styles/global.css
+- docs/context.md

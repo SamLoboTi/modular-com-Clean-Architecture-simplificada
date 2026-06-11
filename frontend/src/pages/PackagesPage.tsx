@@ -42,6 +42,14 @@ export function PackagesPage() {
 
   return (
     <section className="packages-page">
+      <div className="packages-hero">
+        <div>
+          <span>Embarque internacional</span>
+          <h1>Pacotes para descobrir novos paises</h1>
+          <p>Voos, hospedagem e roteiro em uma experiencia Plansvel.</p>
+        </div>
+      </div>
+
       <div className="flight-search-card">
         <div className="flight-search-head">
           <h1>PASSAGENS AEREAS</h1>
