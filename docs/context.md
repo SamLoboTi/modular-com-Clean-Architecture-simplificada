@@ -80,6 +80,24 @@ Arquivos criados ou atualizados:
 - docs/context.md
 - docs/backlog.md
 
+## Iteracao 015 - Hero de Servicos com paisagem da Irlanda
+
+Data: 2026-06-11
+
+Resumo:
+
+- Substituida a imagem da hero da pagina Servicos/Hoteis por uma paisagem verde da Irlanda.
+- A imagem foi salva como asset local para evitar falha de carregamento externo.
+- Alterado o titulo da hero de "Plansvel" para "Estadias Selecionadas", conectando melhor com hotelaria.
+- Mantido o tamanho da hero equivalente ao da pagina Home.
+
+Arquivos criados ou atualizados:
+
+- frontend/public/assets/plansvel/services-ireland-hero.jpg
+- frontend/src/pages/HotelsPage.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+
 ## Iteracao 004 - Diagnostico Figma e rotas
 
 Data: 2026-06-10

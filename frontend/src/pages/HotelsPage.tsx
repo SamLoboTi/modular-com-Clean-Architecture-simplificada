@@ -98,7 +98,7 @@ export function HotelsPage() {
   return (
     <>
       <section className="hotels-hero">
-        <h1>Plansvel</h1>
+        <h1>Estadias Selecionadas</h1>
       </section>
 
       <section className="hotels-content">
