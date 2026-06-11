@@ -98,6 +98,22 @@ Arquivos criados ou atualizados:
 - frontend/src/styles/global.css
 - docs/context.md
 
+## Iteracao 016 - README com preview e links de arquitetura
+
+Data: 2026-06-11
+
+Resumo:
+
+- Adicionada captura visual da Home no README.
+- Copiada a imagem para `docs/assets/plansvel-home.png` para renderizar corretamente no GitHub.
+- Adicionada secao de arquitetura com links para a documentacao do projeto, referencia Clean Architecture e repositorio oficial.
+
+Arquivos criados ou atualizados:
+
+- README.md
+- docs/assets/plansvel-home.png
+- docs/context.md
+
 ## Iteracao 004 - Diagnostico Figma e rotas
 
 Data: 2026-06-10
