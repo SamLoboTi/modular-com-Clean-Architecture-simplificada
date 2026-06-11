@@ -4,6 +4,7 @@ import { Footer } from "./components/layout/Footer";
 import { Header } from "./components/layout/Header";
 import { HomePage } from "./pages/HomePage";
 import { HotelsPage } from "./pages/HotelsPage";
+import { PackagesPage } from "./pages/PackagesPage";
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/hotels" element={<HotelsPage />} />
+          <Route path="/packages" element={<PackagesPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
         <Footer />

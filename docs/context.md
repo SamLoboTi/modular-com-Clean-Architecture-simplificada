@@ -186,3 +186,34 @@ Arquivos criados ou atualizados:
 - frontend/public/assets/plansvel/hotels-hero-varenna.jpg
 - frontend/src/styles/global.css
 - docs/context.md
+
+## Iteracao 010 - Pagina Pacotes e API de passagens
+
+Data: 2026-06-10
+
+Resumo:
+
+- Criada rota real `/packages`.
+- Criada pagina visual de Pacotes/Passagens inspirada no modelo enviado.
+- Criado card de busca com origem, destino, datas, passageiros e alternancia ida/volta.
+- Criada lista de resultados com blocos IDA/VOLTA e resumo de preco laranja.
+- Adicionados modelos extras de pacotes para dar dimensao realista ao produto Plansvel.
+- Criado modulo backend `packages` com endpoint `/api/packages/featured/`.
+- Criado servico frontend `packagesApi` consumindo a API e usando fallback local quando o backend nao estiver ativo.
+- Criado teste backend para o endpoint de pacotes.
+- Registrado benchmark em `docs/benchmark-booking-packages.md`.
+
+Arquivos criados ou atualizados:
+
+- backend/src/apps/packages/*
+- backend/src/config/settings.py
+- backend/src/config/urls.py
+- backend/tests/test_packages.py
+- frontend/src/App.tsx
+- frontend/src/pages/PackagesPage.tsx
+- frontend/src/services/packagesApi.ts
+- frontend/src/styles/global.css
+- frontend/src/vite-env.d.ts
+- docs/benchmark-booking-packages.md
+- docs/context.md
+- docs/backlog.md

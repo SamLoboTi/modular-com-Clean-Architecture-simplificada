@@ -25,6 +25,7 @@
 - [ ] Criar cadastro/login
 - [ ] Criar reservas
 - [ ] Criar testes BDD para fluxo de reserva
+- [x] Criar endpoint inicial de pacotes/passagens
 
 ## Frontend
 
@@ -47,7 +48,7 @@
 - [ ] Corrigir encoding dos textos da interface
 - [x] Configurar `react-router-dom`
 - [x] Criar pagina real `/hotels`
-- [ ] Criar pagina real `/packages`
+- [x] Criar pagina real `/packages`
 - [ ] Criar pagina real `/destinations`
 - [ ] Criar pagina real `/about`
 - [ ] Criar pagina/modal real de login
