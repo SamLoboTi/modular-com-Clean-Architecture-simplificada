@@ -478,15 +478,15 @@ button {
       center 48% / cover;
   color: #ffffff;
   display: flex;
-  min-height: 590px;
-  padding: 0 5vw;
+  min-height: calc(100vh - 71px);
+  padding: 70px 5vw 100px;
 }
 
 .hotels-hero h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(66px, 7vw, 86px);
   line-height: 1;
-  margin: -20px 0 0;
+  margin: 0;
 }
 
 .hotels-content {
@@ -1554,6 +1554,183 @@ button {
   margin-bottom: 5px;
 }
 
+.destinations-page {
+  background: #ffffff;
+}
+
+.destinations-hero {
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(10, 16, 24, 0.62), rgba(10, 16, 24, 0.12)),
+    url("/assets/plansvel/destination-maldives.jpg") center 50% / cover;
+  color: #ffffff;
+  display: flex;
+  min-height: calc(100vh - 71px);
+  padding: 70px 5.1vw 100px;
+}
+
+.destinations-hero div {
+  max-width: 680px;
+}
+
+.destinations-hero span,
+.destinations-page-title span {
+  color: #ffb199;
+  display: block;
+  font-size: 13px;
+  font-weight: 950;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+
+.destinations-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(58px, 6.4vw, 82px);
+  line-height: 0.98;
+  margin: 0 0 21px;
+}
+
+.destinations-hero p {
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.38;
+  margin: 0;
+  max-width: 560px;
+}
+
+.destinations-showcase {
+  margin: 0 auto;
+  max-width: 1130px;
+  padding: 72px 36px 88px;
+}
+
+.destinations-page-title {
+  align-items: end;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: minmax(0, 460px) minmax(0, 450px);
+  margin-bottom: 44px;
+}
+
+.destinations-page-title span {
+  color: #ff450d;
+  grid-column: 1 / -1;
+  margin-bottom: -18px;
+}
+
+.destinations-page-title h2 {
+  font-size: 39px;
+  font-weight: 950;
+  letter-spacing: -0.8px;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.destinations-page-title p {
+  color: #505050;
+  font-size: 16px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.destinations-page-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.destination-feature-card {
+  border-radius: 8px;
+  min-height: 452px;
+  overflow: hidden;
+  position: relative;
+}
+
+.destination-feature-card img {
+  display: block;
+  height: 285px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.destination-feature-card > div {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 18px 35px rgba(20, 24, 28, 0.15);
+  margin: -58px 12px 0;
+  min-height: 212px;
+  padding: 18px 14px 15px;
+  position: relative;
+}
+
+.destination-feature-card p {
+  align-items: center;
+  display: flex;
+  font-size: 11px;
+  font-weight: 800;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 0 0 10px;
+}
+
+.destination-feature-card p span,
+.destination-feature-card p strong {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.destination-feature-card svg {
+  color: #ff450d;
+  flex: 0 0 auto;
+}
+
+.destination-feature-card p strong svg {
+  color: #f2a01b;
+}
+
+.destination-feature-card h3 {
+  font-size: 24px;
+  font-weight: 950;
+  letter-spacing: -0.3px;
+  line-height: 1.13;
+  margin: 0 0 9px;
+}
+
+.destination-feature-card small {
+  color: #626262;
+  display: block;
+  font-size: 12px;
+  line-height: 1.38;
+  min-height: 50px;
+}
+
+.destination-feature-card footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.destination-feature-card b {
+  color: #8b8b8b;
+  font-size: 17px;
+  font-weight: 950;
+}
+
+.destination-feature-card button {
+  align-items: center;
+  background: #ff450d;
+  border: 0;
+  border-radius: 999px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 39px;
+  justify-content: center;
+  width: 39px;
+}
+
 .site-footer {
   background: #ff450d;
   color: #ffffff;
@@ -1814,8 +1991,8 @@ button {
 
   .hotels-hero {
     justify-content: center;
-    min-height: 260px;
-    padding: 0 24px;
+    min-height: 360px;
+    padding: 44px 24px 38px;
     text-align: center;
   }
 
@@ -2017,6 +2194,38 @@ button {
 
   .about-process li {
     grid-template-columns: 45px 1fr;
+  }
+
+  .destinations-hero {
+    justify-content: center;
+    min-height: 360px;
+    padding: 44px 24px 38px;
+    text-align: center;
+  }
+
+  .destinations-hero h1 {
+    font-size: 39px;
+  }
+
+  .destinations-hero p {
+    font-size: 14px;
+  }
+
+  .destinations-showcase {
+    padding: 48px 24px 60px;
+  }
+
+  .destinations-page-title,
+  .destinations-page-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destinations-page-title {
+    gap: 18px;
+  }
+
+  .destinations-page-title span {
+    margin-bottom: 0;
   }
 
   .site-footer {

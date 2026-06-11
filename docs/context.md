@@ -55,6 +55,31 @@ Arquivos criados ou atualizados:
 - docs/context.md
 - docs/backlog.md
 
+## Iteracao 014 - Destinos populares e pagina Destinos
+
+Data: 2026-06-11
+
+Resumo:
+
+- Corrigido texto da Home de "Destinatinos Polulares" para "Destinos Populares".
+- Tentado benchmark direto no Booking.com; o site retornou bloqueio de verificacao/JavaScript para automacao.
+- Adicionados novos destinos inspirados em marketplaces de viagem, com fotos salvas como assets locais.
+- Criado arquivo compartilhado de dados `destinations.ts`.
+- Criada rota real `/destinations`.
+- Criada pagina Destinos com hero em tamanho equivalente ao da Home e grid de destinos.
+- Ajustada a pagina de Servicos/Hoteis para usar hero no mesmo porte visual da Home.
+
+Arquivos criados ou atualizados:
+
+- frontend/public/assets/plansvel/destination-*.jpg
+- frontend/src/data/destinations.ts
+- frontend/src/pages/DestinationsPage.tsx
+- frontend/src/pages/HomePage.tsx
+- frontend/src/App.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+- docs/backlog.md
+
 ## Iteracao 004 - Diagnostico Figma e rotas
 
 Data: 2026-06-10

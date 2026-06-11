@@ -44,12 +44,12 @@
 - [ ] Criar pagina de detalhes do hotel
 - [ ] Criar login/cadastro
 - [x] Separar home, hotéis, header e footer em componentes próprios
-- [ ] Adicionar rotas reais para Home, Hotéis, Pacotes e Destinos
+- [x] Adicionar rotas reais para Home, Hotéis, Pacotes e Destinos
 - [ ] Corrigir encoding dos textos da interface
 - [x] Configurar `react-router-dom`
 - [x] Criar pagina real `/hotels`
 - [x] Criar pagina real `/packages`
-- [ ] Criar pagina real `/destinations`
+- [x] Criar pagina real `/destinations`
 - [x] Criar pagina real `/about`
 - [ ] Criar pagina/modal real de login
 - [ ] Implementar menu mobile funcional

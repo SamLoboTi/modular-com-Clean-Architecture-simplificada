@@ -9,41 +9,7 @@ import {
 } from "lucide-react";
 
 import { Button } from "../components/ui/Button";
-
-const destinations = [
-  {
-    name: "Nusa Dua",
-    location: "Bali, Indonesia",
-    price: "R$ 000.000",
-    rating: "4.5",
-    image:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=88",
-  },
-  {
-    name: "Taman Bunaken",
-    location: "Sulawesi Utara",
-    price: "R$ 000.000",
-    rating: "4.5",
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=88",
-  },
-  {
-    name: "Gunung Rinjani",
-    location: "Lombok, NTB",
-    price: "R$ 000.000",
-    rating: "4.5",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=88",
-  },
-  {
-    name: "Danau Toba",
-    location: "Sumatera Utara",
-    price: "R$ 000.000",
-    rating: "4.5",
-    image:
-      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=88",
-  },
-];
+import { destinations } from "../data/destinations";
 
 export function HomePage() {
   return (
@@ -82,8 +48,8 @@ export function HomePage() {
 
       <section className="destinations-block" id="destinations">
         <div className="section-title">
-          <h2>Destinatinos</h2>
-          <strong>Polulares</strong>
+          <h2>Destinos</h2>
+          <strong>Populares</strong>
         </div>
         <div className="slider-buttons" aria-label="Controles de destinos">
           <button type="button" aria-label="Destino anterior">
@@ -94,14 +60,14 @@ export function HomePage() {
           </button>
         </div>
         <div className="destination-cards">
-          {destinations.map((destination) => (
+          {destinations.slice(0, 4).map((destination) => (
             <article className="destination-card" key={destination.name}>
               <img src={destination.image} alt={destination.name} />
               <div className="destination-card-panel">
                 <p>
                   <span>
                     <MapPin size={15} />
-                    {destination.location}
+                    {destination.location}, {destination.country}
                   </span>
                   <span>
                     <Star size={16} fill="currentColor" />

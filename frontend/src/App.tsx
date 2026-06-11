@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/layout/Footer";
 import { Header } from "./components/layout/Header";
 import { AboutPage } from "./pages/AboutPage";
+import { DestinationsPage } from "./pages/DestinationsPage";
 import { HomePage } from "./pages/HomePage";
 import { HotelsPage } from "./pages/HotelsPage";
 import { PackagesPage } from "./pages/PackagesPage";
@@ -17,6 +18,7 @@ export function App() {
           <Route path="/hotels" element={<HotelsPage />} />
           <Route path="/packages" element={<PackagesPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/destinations" element={<DestinationsPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
         <Footer />
