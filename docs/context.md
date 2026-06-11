@@ -235,3 +235,40 @@ Arquivos criados ou atualizados:
 - frontend/src/pages/PackagesPage.tsx
 - frontend/src/styles/global.css
 - docs/context.md
+
+## Iteracao 012 - Hero Pacotes no tamanho da Home
+
+Data: 2026-06-10
+
+Resumo:
+
+- Aumentada a imagem principal da pagina `/packages` para ocupar a abertura da tela, no mesmo porte da Home.
+- Ajustado espacamento do card de busca para aparecer apos a hero, mantendo continuidade visual.
+- Ajustado comportamento mobile para manter a imagem grande sem quebrar o fluxo.
+
+Arquivos criados ou atualizados:
+
+- frontend/src/styles/global.css
+- docs/context.md
+
+## Iteracao 013 - Pagina Sobre Nos institucional
+
+Data: 2026-06-11
+
+Resumo:
+
+- Criada rota real `/about`.
+- Inserida imagem de Roma/Coliseu como hero em tamanho equivalente ao da Home.
+- Criada pagina institucional "Sobre a Plansvel" com foco em suporte, operacao e governanca.
+- Desenvolvidos blocos de conteudo para como trabalhamos, sustentabilidade, imprensa, carreiras, investidores, contato corporativo e denuncia de uso inadequado.
+- Adicionada vitrine de parceiros de referencia em formato textual para dar dimensao corporativa ao produto.
+- Ajustado responsivo da pagina para telas menores.
+
+Arquivos criados ou atualizados:
+
+- frontend/public/assets/plansvel/about-rome-hero.jpg
+- frontend/src/App.tsx
+- frontend/src/pages/AboutPage.tsx
+- frontend/src/styles/global.css
+- docs/context.md
+- docs/backlog.md

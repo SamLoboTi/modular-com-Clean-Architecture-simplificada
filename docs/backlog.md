@@ -50,7 +50,7 @@
 - [x] Criar pagina real `/hotels`
 - [x] Criar pagina real `/packages`
 - [ ] Criar pagina real `/destinations`
-- [ ] Criar pagina real `/about`
+- [x] Criar pagina real `/about`
 - [ ] Criar pagina/modal real de login
 - [ ] Implementar menu mobile funcional
 - [ ] Implementar fluxo de busca Home -> Hotéis
